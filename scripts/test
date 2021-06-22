@@ -1,0 +1,35 @@
+#!/bin/bash
+set -e
+
+HERE=$(dirname "$(readlink --canonicalize "$BASH_SOURCE")")
+. "$HERE/_env"
+
+if [ "$1" == -s ]; then
+    SECURE=true
+fi
+
+function c () {
+    if [ "$SECURE" == true ]; then
+        curl --silent --insecure "https://localhost:8080/$1" "${@:2}"
+    else
+        curl --silent "http://localhost:8080/$1" "${@:2}"
+    fi
+}
+
+c person/Tal/chores \
+    --request PUT \
+    --data '["cleaning", "shopping", "cooking"]'
+
+c person/Tal/chores?scope=all \
+    --header 'Accept: text/html' \
+    --header 'Accept-Encoding: br' | brotli --decompress
+
+c person/Tal/chores?scope=all \
+    --header 'Accept: text/html' \
+    --header 'Accept-Encoding: gzip' | gunzip
+
+c person/Tal/chores?scope=all \
+    --header 'Accept: text/html' \
+    --header 'Accept-Encoding: deflate' | openssl zlib -d
+
+# https://stackoverflow.com/questions/3178566/how-to-deflate-with-a-command-line-tool-to-extract-a-git-object

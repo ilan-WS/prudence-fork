@@ -1,0 +1,17 @@
+#!/bin/bash
+set -e
+
+HERE=$(dirname "$(readlink --canonicalize "$BASH_SOURCE")")
+. "$HERE/_env"
+
+"$HERE/build"
+
+function p () {
+    prudence run "$ROOT/examples/hello-world/start.js" --argument=hello=world --ncsa=stdout -vv "$@"
+}
+
+if [ "$1" == -s ]; then
+    p --argument=secure=true
+else
+    p
+fi
