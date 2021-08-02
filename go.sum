@@ -178,6 +178,7 @@ github.com/dop251/goja v0.0.0-20210630164231-8f81471d5d0b h1:rnfefjbv6blIje+eurn
 github.com/dop251/goja v0.0.0-20210630164231-8f81471d5d0b/go.mod h1:R9ET47fwRVRPZnOGvHxxhuZcbrMCuiqOz3Rlrh4KSnk=
 github.com/dop251/goja v0.0.0-20210720190508-a7a3a1366b2e h1:ig8X1MVjRuRjsfkfhtLltwppn84oz4RCL1n6CFzPOss=
 github.com/dop251/goja v0.0.0-20210720190508-a7a3a1366b2e/go.mod h1:R9ET47fwRVRPZnOGvHxxhuZcbrMCuiqOz3Rlrh4KSnk=
+github.com/dop251/goja v0.0.0-20210722124603-c2068308df1e/go.mod h1:R9ET47fwRVRPZnOGvHxxhuZcbrMCuiqOz3Rlrh4KSnk=
 github.com/dop251/goja v0.0.0-20210725101410-b8e8f56aca19 h1:/3NsXMrd6pWR+2f+sxWy4sxNM0OxUFVGEZVOfYf0a40=
 github.com/dop251/goja v0.0.0-20210725101410-b8e8f56aca19/go.mod h1:R9ET47fwRVRPZnOGvHxxhuZcbrMCuiqOz3Rlrh4KSnk=
 github.com/dop251/goja_nodejs v0.0.0-20210225215109-d91c329300e7/go.mod h1:hn7BA7c8pLvoGndExHudxTDKZ84Pyvv+90pbBjbTz0Y=
@@ -599,6 +600,8 @@ github.com/tdewolff/minify/v2 v2.9.18 h1:j5Is0sOGp4cxm0o3HgvHCWCvTtmKnfB0qv0FCRb
 github.com/tdewolff/minify/v2 v2.9.18/go.mod h1:0y0mXZnisZm8HcgQvAV0btxa1IgecGam90zMuHqEZuc=
 github.com/tdewolff/minify/v2 v2.9.19 h1:QdCQhIqCeBnSWU/4e0nJ8QJeQUNO5CC7jrH3xwETkVI=
 github.com/tdewolff/minify/v2 v2.9.19/go.mod h1:PoDBts2L7sCwUT28vTAlozGeD6qxjrrihtin4bR/RMM=
+github.com/tdewolff/minify/v2 v2.9.21 h1:nO4s1PEMy7aRjlIlbr3Jgr+bJby8QYuifa2Vs2f9lh4=
+github.com/tdewolff/minify/v2 v2.9.21/go.mod h1:PoDBts2L7sCwUT28vTAlozGeD6qxjrrihtin4bR/RMM=
 github.com/tdewolff/parse/v2 v2.5.18 h1:d67Ql/Pe36JcJZ7J2MY8upx6iTxbxGS9lzwyFGtMmd0=
 github.com/tdewolff/parse/v2 v2.5.18/go.mod h1:WzaJpRSbwq++EIQHYIRTpbYKNA3gn9it1Ik++q4zyho=
 github.com/tdewolff/parse/v2 v2.5.19 h1:Kjaj3KQOx/4elIxlBSglus4E2oMfdROphvbq2b+OBZ0=

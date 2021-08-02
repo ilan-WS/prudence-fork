@@ -11,7 +11,7 @@ require (
 	github.com/dop251/goja v0.0.0-20210725101410-b8e8f56aca19
 	github.com/gomarkdown/markdown v0.0.0-20210514010506-3b9f47219fe7
 	github.com/spf13/cobra v1.2.1
-	github.com/tdewolff/minify/v2 v2.9.19
+	github.com/tdewolff/minify/v2 v2.9.21
 	github.com/tliron/kutil v0.1.47
 	gocloud.dev v0.23.0
 )
