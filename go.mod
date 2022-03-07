@@ -7,7 +7,7 @@ go 1.16
 // replace github.com/dop251/goja => "/Depot/Projects/Three Crickets/goja"
 
 require (
-	github.com/andybalholm/brotli v1.0.3
+	github.com/andybalholm/brotli v1.0.4
 	github.com/dop251/goja v0.0.0-20210802150913-8253af8f29e1
 	github.com/gomarkdown/markdown v0.0.0-20210514010506-3b9f47219fe7
 	github.com/spf13/cobra v1.2.1
