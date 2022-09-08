@@ -1,6 +1,6 @@
 module github.com/tliron/prudence
 
-go 1.16
+go 1.19
 
 // replace github.com/tliron/kutil => /Depot/Projects/RedHat/kutil
 
