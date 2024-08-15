@@ -12,6 +12,6 @@ require (
 	github.com/gomarkdown/markdown 663e2500819c
 	github.com/spf13/cobra v1.2.1
 	github.com/tdewolff/minify/v2 v2.9.21
-	github.com/tliron/kutil v0.1.60
+	github.com/tliron/kutil v0.3.26
 	gocloud.dev v0.23.0
 )
