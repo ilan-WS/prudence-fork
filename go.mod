@@ -8,7 +8,7 @@ go 1.16
 
 require (
 	github.com/andybalholm/brotli v1.0.3
-	github.com/dop251/goja v0.0.0-20220516123900-4418d4575a41
+	github.com/dop251/goja 79f3a7efcdbd
 	github.com/gomarkdown/markdown 663e2500819c
 	github.com/spf13/cobra v1.2.1
 	github.com/tdewolff/minify/v2 v2.9.21
